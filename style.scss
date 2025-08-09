@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+@import "partials/colors";
+@import "partials/header";
+@import "partials/about";
+@import "partials/services";
+@import "partials/location";
+@import "partials/footer";
+@import "partials/button-watsapp";
+
+body {
+  font-family: "sora", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 1rem;
+}
+
+button {
+  font-family: "sora", sans-serif;
+  cursor: pointer;
+  border: none;
+}
+
+svg {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+li {
+  list-style: none;
+}
+
+.conteiner {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

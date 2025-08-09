@@ -1,0 +1,32 @@
+footer {
+  background-color: $primary-normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 39px;
+  padding: 3.6rem 0 2rem 0;
+
+  .links-social-media {
+    display: flex;
+    gap: 1rem;
+    a {
+      font-size: 1.5rem;
+      color: $white-normal;
+      transition: 0.3s all ease-in-out;
+    }
+    a:hover {
+      transform: translateY(-8px) scale(1.1);
+      color: $red-normal;
+    }
+  }
+
+  img {
+    width: 166px;
+  }
+
+  p {
+    color: $white-dark;
+    text-align: center;
+  }
+}
