@@ -236,6 +236,7 @@ footer p {
   position: fixed;
   right: 1.5rem;
   bottom: 1.5rem;
+  z-index: 99;
 }
 .button-to-whatsapp a {
   background-color: #00f16d;

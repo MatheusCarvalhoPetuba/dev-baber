@@ -2,6 +2,7 @@
   position: fixed;
   right: 1.5rem;
   bottom: 1.5rem;
+  z-index: 99;
 
   a {
     background-color: $green-normal;
